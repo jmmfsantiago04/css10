@@ -25,8 +25,8 @@ const Section2 = () => {
 
 
           <form className="flex flex-col gap-[40px] sm:gap-[45px] md:gap-[45px] lg:gap-[60px] xl:gap-[60px] mb-[50px]">
-            <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row gap-[30px] items-center">
-              <label className=" text-custom-gray text-[20px]">차량명</label>
+            <div className="flex flex-row ml-[-18px] sm:ml-0 md:ml-0 lg:ml-0 xl:ml-0 gap-[18px] sm:gap-[25px] md:gap-[30px] lg:gap-[30px] xl:gap-[30px]  items-center">
+              <label className=" text-custom-gray whitespace-nowrap text-[18px] sm:text-[20px] md:text-[20px] lg:text-[20px] xl:text-[20px]">차량명</label>
               <input 
                 id="carName"
                 type="text" 
@@ -35,8 +35,8 @@ const Section2 = () => {
               />
             </div>
 
-            <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row gap-[30px] items-center">
-              <label  className=" text-custom-gray text-[20px]">핸드폰</label>
+            <div className="flex flex-row ml-[-18px] sm:ml-0 md:ml-0 lg:ml-0 xl:ml-0 gap-[18px] sm:gap-[25px] md:gap-[30px] lg:gap-[30px] xl:gap-[30px]  items-center">
+            <label className=" text-custom-gray whitespace-nowrap text-[18px] sm:text-[20px] md:text-[20px] lg:text-[20px] xl:text-[20px]">핸드폰</label>
               <input 
                 id="phone"
                 type="tel" 

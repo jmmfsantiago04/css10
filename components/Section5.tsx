@@ -30,22 +30,22 @@ const Section5 = () => {
         </div>
 
         <div
-          className="hidden md:block lg:block xl:block absolute lg:mt-[415px] lg:ml-[-20px] xl:mt-[420px] xl:ml-[-20px] min-w-[990px] min-h-[895px] bg-no-repeat bg-cover bg-center"
+          className="hidden md:block  lg:block xl:block absolute lg:mt-[415px] lg:ml-[-20px] xl:mt-[420px] xl:ml-[-20px] min-w-[990px] min-h-[895px] bg-no-repeat bg-cover bg-center"
           style={{ backgroundImage: `url(${backgroundImageUrl})` }}
         />
 
         <div className='flex flex-col pt-0 pb-10 mt-[50px] lg:mt-0 xl:mt-0'>
-          <div className='bg-white m-2 flex flex-col gap-[25px] sm:text-[18px] md:text-[18px] lg:text-[25px] xlg:text-[25px]'>
-            <p className="bg-white  rounded-[30px] px-8 py-5 text-[20px] shadow-xl border border-gray-200">
+          <div className='bg-white  m-2 flex flex-col gap-[25px] sm:text-[18px] md:text-[18px] lg:text-[25px] xlg:text-[25px]'>
+            <p className="bg-white z-10 rounded-[30px] px-8 py-5 text-[20px] shadow-xl border border-gray-200">
               1. 업계의 오랜이어도 국내 대비 경쟁력이 크지 않음
             </p>
-            <p className="bg-white  rounded-[30px] px-8 py-5 text-[20px] shadow-xl border border-gray-200">
+            <p className="bg-white z-10 rounded-[30px] px-8 py-5 text-[20px] shadow-xl border border-gray-200">
               2. 주변업계가 많아도 친절한 직원
             </p>
-            <p className="bg-white  rounded-[30px] px-8 py-5 text-[20px] shadow-xl border border-gray-200">
+            <p className="bg-white z-10 rounded-[30px] px-8 py-5 text-[20px] shadow-xl border border-gray-200">
               3. 새 시리즈에 있는 자본금 간접원인 적음
             </p>
-            <p className="bg-white  rounded-[30px] px-8 py-5 text-[20px] shadow-xl border border-gray-200">
+            <p className="bg-white z-10 rounded-[30px] px-8 py-5 text-[20px] shadow-xl border border-gray-200">
               4. 피치카카닷넷 50만 원에서 300만 원까지 더 받을 수 있음
             </p>
           </div>
